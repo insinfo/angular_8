@@ -5,6 +5,7 @@ presets:
   browser:
     platforms:
       - chrome
+      - firefox
     paths:
       - test/bootstrap
       - test/common
