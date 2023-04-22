@@ -2,3 +2,8 @@ presets:
   ci:
     # Don't run any tests that are tagged ["fails-on-ci"].
     exclude_tags: "fails-on-ci"
+
+override_platforms:
+  firefox:
+    settings:
+      arguments: --headless
