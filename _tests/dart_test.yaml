@@ -3,9 +3,6 @@ include: ../tool/dart_test_repo.yaml
 
 presets:
   browser:
-    platforms:
-      - chrome
-      - firefox
     paths:
       - test/bootstrap
       - test/common
