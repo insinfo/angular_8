@@ -1,6 +1,7 @@
 import 'package:meta/meta.dart';
 
 import '../ast.dart';
+import '../ast/attributes/attribute_ast_mixin.dart';
 import '../visitor.dart';
 
 /// An [TemplateAstVisitor] that recursively visits all children of an AST node,

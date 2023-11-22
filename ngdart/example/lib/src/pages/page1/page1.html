@@ -1,0 +1,8 @@
+<h2>page1 form</h2>
+<form (ngSubmit)="save()" novalidate>
+    <label>Name:</label>
+    <input type="text" name="name"  [(ngModel)]="person.name">
+    <label>Age:</label>
+    <input type="number" name="age"  [(ngModel)]="person.age">
+    <button type="submit">save</button>
+</form>

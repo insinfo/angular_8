@@ -1,4 +1,6 @@
-export 'ast/attribute.dart' show AttributeAst, ParsedAttributeAst;
+export 'ast/attributes/attribute_ast_mixin.dart' show AttributeAst;
+export 'ast/attributes/parsed_attribute_ast.dart' show ParsedAttributeAst;
+
 export 'ast/close_element.dart' show CloseElementAst, ParsedCloseElementAst;
 export 'ast/comment.dart' show CommentAst;
 export 'ast/container.dart' show ContainerAst;

@@ -1,3 +1,10 @@
+## 8.0.0-dev.3
+
+ - Migrate to Analyzer 5.13.0 and bump minimum SDK to 3.0.0
+ - upgrade dependencies
+ - fix mixin classes
+ - add example project
+
 ## 8.0.0-dev.2
 
  - **DOCS**(all): update to new workflow badge. ([01a55035](https://github.com/angulardart-community/angular/commit/01a55035a3a69c3fca20212d428aa476662b14a4))

@@ -1,4 +1,5 @@
 import '../ast.dart';
+import '../ast/attributes/attribute_ast_mixin.dart';
 import '../exception_handler/exception_handler.dart';
 import '../expression/micro.dart';
 import '../visitor.dart';

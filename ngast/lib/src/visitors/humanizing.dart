@@ -1,4 +1,5 @@
 import '../ast.dart';
+import '../ast/attributes/attribute_ast_mixin.dart';
 import '../visitor.dart';
 
 /// Provides a human-readable view of a template AST tree.

@@ -2,6 +2,7 @@ import 'package:source_span/source_span.dart';
 import 'package:string_scanner/string_scanner.dart';
 
 import '../ast.dart';
+import '../ast/attributes/attribute_ast_mixin.dart';
 import '../exception_handler/exception_handler.dart';
 import '../token/tokens.dart';
 import 'reader.dart';

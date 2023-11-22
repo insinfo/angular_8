@@ -1,4 +1,4 @@
-// @dart=2.9
+
 
 import 'package:collection/collection.dart';
 import 'package:mockito/mockito.dart';
@@ -12,8 +12,8 @@ void main() {
   tearDown(disposeAnyRunningTest);
 
   group('navigateByUrl', () {
-    Router mockRouter;
-    Router router;
+    late Router mockRouter;
+    late Router router;
 
     setUp(() {
       mockRouter = MockRouter();

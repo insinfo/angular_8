@@ -3,29 +3,33 @@ description: >
   The AngularDart compiler.
   It compiles your component files written in Dart into templates so that you
   don't have to worry about all the complicated hassle.
-version: 3.0.0-dev.1
+version: 3.0.0-dev.2
 repository: https://github.com/angulardart-community/angular
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  analyzer: ^5.4.0
-  args: ^2.3.2
-  build: ^2.3.1
-  build_test: ^2.1.6
-  code_builder: ^4.4.0
-  collection: ^1.17.0
-  csslib: ^0.17.2
-  dart_style: ^2.2.4
-  logging: ^1.1.0
-  meta: ^1.8.0
-  ngast: ^3.0.0-dev.0
-  ngdart: ^8.0.0-dev.1
-  package_config: ^2.1.0
-  path: ^1.8.3
-  source_gen: ^1.2.6
-  source_span: ^1.9.1
+  analyzer: 5.13.0 #5.12.0
+  args: 2.3.2
+  build: 2.4.0 #
+  build_test: 2.2.1 #updated
+  code_builder: 4.5.0
+  collection: 1.18.0
+  csslib: 0.17.2
+  dart_style: 2.2.4 #
+  logging: 1.1.0
+  meta: 1.11.0 #updated
+  ngast: #^3.0.0-dev.0
+    path:
+      ../ngast
+  ngdart: #^8.0.0-dev.1
+     path:
+      ../ngdart
+  package_config: 2.1.0
+  path: 1.8.3
+  source_gen: 1.4.0 #1.2.6
+  source_span: 1.10.0
 
 dev_dependencies:
   lints: ^2.0.1

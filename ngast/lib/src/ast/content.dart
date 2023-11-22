@@ -3,13 +3,14 @@ import 'package:source_span/source_span.dart';
 import '../ast.dart';
 import '../token/tokens.dart';
 import '../visitor.dart';
+import 'attributes/attribute_ast_mixin.dart';
 
 /// Represents an `<ng-content>` element AST.
 ///
 /// Embedded content is _like_ an `ElementAst`, but only contains children.
 ///
 /// Clients should not extend, implement, or mix-in this class.
-abstract class EmbeddedContentAst implements StandaloneTemplateAst {
+abstract mixin class EmbeddedContentAst implements StandaloneTemplateAst {
   /// Create a synthetic embedded content AST.
   factory EmbeddedContentAst([
     String selector,

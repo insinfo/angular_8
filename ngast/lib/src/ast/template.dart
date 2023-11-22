@@ -4,6 +4,7 @@ import 'package:source_span/source_span.dart';
 import '../ast.dart';
 import '../token/tokens.dart';
 import '../visitor.dart';
+import 'attributes/attribute_ast_mixin.dart';
 
 const _listEquals = ListEquality<dynamic>();
 
@@ -14,7 +15,7 @@ const _listEquals = ListEquality<dynamic>();
 /// [references].
 ///
 /// Clients should not extend, implement, or mix-in this class.
-abstract class EmbeddedTemplateAst implements StandaloneTemplateAst {
+abstract mixin class EmbeddedTemplateAst implements StandaloneTemplateAst {
   factory EmbeddedTemplateAst({
     List<AnnotationAst> annotations,
     List<AttributeAst> attributes,

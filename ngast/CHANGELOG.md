@@ -1,3 +1,9 @@
+## 3.0.0-dev.1
+
+ - Migrate to Analyzer 5.13.0 and bump minimum SDK to 3.0.0
+ - upgrade dependencies
+ - fix mixin classes
+
 ## 3.0.0-dev.0
 
  - Migrate to Analyzer v5 and bump minimum SDK to 2.18

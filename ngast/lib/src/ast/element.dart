@@ -4,13 +4,14 @@ import 'package:source_span/source_span.dart';
 import '../ast.dart';
 import '../token/tokens.dart';
 import '../visitor.dart';
+import 'attributes/attribute_ast_mixin.dart';
 
 const _listEquals = ListEquality<dynamic>();
 
 /// Represents a DOM element that was parsed, that could be upgraded.
 ///
 /// Clients should not extend, implement, or mix-in this class.
-abstract class ElementAst implements StandaloneTemplateAst {
+abstract mixin class ElementAst implements StandaloneTemplateAst {
   /// Create a synthetic element AST.
   factory ElementAst(
     String name,

@@ -1,0 +1,17 @@
+<h2>page2 list</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let person of people">
+            <td>{{person.id}}</td> 
+            <td>{{person.name}}</td>    
+            <td>{{person.age}}</td>         
+        </tr>
+    </tbody>
+</table>

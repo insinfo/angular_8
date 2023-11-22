@@ -119,7 +119,7 @@ class RouterImpl extends Router {
     NavigationParams? navigationParams,
   ]) {
     navigationParams ??= const NavigationParams();
-    final absolutePath = _getAbsolutePath(path, _activeState);
+    final absolutePath = _getAbsolutePath(path, _activeState);    
     return _enqueueNavigation(absolutePath, navigationParams);
   }
 

@@ -1,4 +1,4 @@
-// @dart=2.9
+
 
 import 'package:build_test/build_test.dart';
 import 'package:logging/logging.dart';

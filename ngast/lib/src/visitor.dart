@@ -1,4 +1,5 @@
 import 'ast.dart';
+import 'ast/attributes/attribute_ast_mixin.dart';
 
 export 'visitors/desugar.dart';
 export 'visitors/humanizing.dart';
