@@ -1,1 +1,1 @@
-Various canonical example applications for AngularDart.
+See https://angulardart.xyz for examples.

@@ -11,15 +11,13 @@ dependencies:
   collection: 1.18.0  
   ngdart: #^8.0.0-dev.1
      path:
-      ../ngdart
-  ngtest: #^5.0.0-dev.1
-    path:
-      ../ngtest
+      ../
+  
 
   test: ^1.22.2
 
 dev_dependencies:
-  analyzer: ^5.4.0
+  analyzer: 5.13.0
   build_runner: 2.4.6
   build_web_compilers: 4.0.6
   csslib: 0.17.2

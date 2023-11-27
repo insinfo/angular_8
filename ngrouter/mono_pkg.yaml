@@ -1,9 +1,0 @@
-sdk:
-  - 2.19.6
-  - pubspec
-
-stages:
-  - build:
-      - command: dart run build_runner build --fail-on-severe
-  - unit_test:
-      - command: dart run build_runner test --fail-on-severe -- -P ci

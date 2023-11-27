@@ -1,8 +1,0 @@
-sdk:
-  - 2.19.6
-  - pubspec
-
-stages:
-  - analyze:
-      - format
-      - analyze

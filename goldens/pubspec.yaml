@@ -9,7 +9,7 @@ dependencies:
   js: ^0.6.5
   ngdart: #^8.0.0-dev.1
     path:
-      ../ngdart
+      ../
 
 
 dev_dependencies:
