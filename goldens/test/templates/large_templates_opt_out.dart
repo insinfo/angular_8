@@ -1,5 +1,5 @@
 // Intentionally opt-out to review code compared to "large_templates.dart".
-// @dart=2.9
+
 @JS()
 library golden;
 
