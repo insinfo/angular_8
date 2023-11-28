@@ -79,7 +79,5 @@ export 'src/runtime/check_binding.dart' show debugCheckBindings;
 export 'src/testability.dart'
     show testabilityProvider, Testability, TestabilityRegistry;
 
-
-
 export 'ngrouter.dart';
 export 'ngforms.dart';
